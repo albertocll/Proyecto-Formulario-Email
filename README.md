@@ -2,6 +2,8 @@
 
 Formulario web interactivo para simular el envío de correos electrónicos. Incluye validación en tiempo real, spinner de carga, mensaje de éxito y soporte para campo CC opcional.
 
+🔗 **[Ver proyecto en vivo](https://leafy-jelly-248736.netlify.app/)**
+
 ---
 
 ## 🚀 Funcionalidades
@@ -27,14 +29,17 @@ Formulario web interactivo para simular el envío de correos electrónicos. Incl
 ## 📁 Estructura
 
 /
-├── index.html # Formulario principal
-├── js/
-│ └── app.js # Lógica y validaciones del formulario
-├── dist/
-│ ├── app.css # Estilos generales
+├── index.html # Formulario principal  
+├── js/  
+│ └── app.js # Lógica y validaciones del formulario  
+├── dist/  
+│ ├── app.css # Estilos generales  
 │ └── spinner.css # Estilos del spinner de carga
 
-📝 Notas
+---
+
+## 📝 Notas
+
 Este proyecto no envía correos reales. Está pensado como práctica de validaciones, manejo de eventos y lógica de interfaz.
 
 Puedes usarlo como base para integrarlo con servicios como EmailJS, SendGrid o un backend propio.
