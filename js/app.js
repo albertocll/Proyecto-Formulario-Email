@@ -117,13 +117,14 @@ document.addEventListener('DOMContentLoaded', function () {
         const camposObligatorios = { ...email };
         delete camposObligatorios.cc;
 
-        if(Object.values(email).includes('') ){
+        if(Object.values(camposObligatorios).includes('')) {
             btnSubmit.classList.add('opacity-50');
             btnSubmit.disabled = true;
-            return
+            return;
         }
         btnSubmit.classList.remove('opacity-50');
         btnSubmit.disabled = false;
+
     }
 
     function resetFormulario(){
